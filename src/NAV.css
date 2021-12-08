@@ -1,0 +1,24 @@
+.header
+{
+    text-align: center;
+    font-size: x-large;
+}
+.nav
+{
+    background-color: black;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav a  
+{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover 
+{
+    background-color: white;
+    color: black;
+}
